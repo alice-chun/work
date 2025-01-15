@@ -1,0 +1,11 @@
+model:
+  - name: RecAgent
+  - name: SASRec
+  - name: UserCF
+dataset:
+  - name: movielens
+  - name: amazon_reviews
+metrics:
+  - precision
+  - recall
+  - ndcg
